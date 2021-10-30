@@ -1,4 +1,4 @@
-package Hello;
+package Hello.Strategy;
 
 public class Hello {
     public static void main(String[] args) {
