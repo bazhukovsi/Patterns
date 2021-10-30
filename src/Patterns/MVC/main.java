@@ -1,4 +1,4 @@
-package Hello.MVC;
+package Patterns.MVC;
 
 public class main {
     public static void main(String[] args) {

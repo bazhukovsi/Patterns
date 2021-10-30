@@ -1,4 +1,4 @@
-package Hello.Strategy;
+package Patterns.Strategy;
 
 public class Hello {
     public static void main(String[] args) {
