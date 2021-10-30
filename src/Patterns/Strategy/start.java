@@ -19,6 +19,7 @@ public class start {
         cars.add(car3);
         for (Car car : cars){
             car.display();
+            System.out.println("----------------------------------------------------");
         }
     }
 }
