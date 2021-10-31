@@ -1,6 +1,6 @@
-package Patterns.Strategy.objects;
+package Patterns.StrategyCar.objects;
 
-import Patterns.Strategy.abstracts.Car;
+import Patterns.StrategyCar.abstracts.Car;
 
 public class FantasticCar extends Car {
     @Override

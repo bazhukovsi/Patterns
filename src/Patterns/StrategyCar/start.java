@@ -1,13 +1,13 @@
-package Patterns.Strategy;
+package Patterns.StrategyCar;
 
-import Patterns.Strategy.abstracts.Car;
-import Patterns.Strategy.flyBehaviorClass.CarNoFly;
-import Patterns.Strategy.flyBehaviorClass.CarWithFantasticPerfom;
-import Patterns.Strategy.flyBehaviorClass.CarWithWings;
-import Patterns.Strategy.objects.CarBMW;
-import Patterns.Strategy.objects.CarJamesBond;
-import Patterns.Strategy.objects.CarSEAT;
-import Patterns.Strategy.objects.FantasticCar;
+import Patterns.StrategyCar.abstracts.Car;
+import Patterns.StrategyCar.flyBehaviorClass.CarNoFly;
+import Patterns.StrategyCar.flyBehaviorClass.CarWithFantasticPerfom;
+import Patterns.StrategyCar.flyBehaviorClass.CarWithWings;
+import Patterns.StrategyCar.objects.CarBMW;
+import Patterns.StrategyCar.objects.CarJamesBond;
+import Patterns.StrategyCar.objects.CarSEAT;
+import Patterns.StrategyCar.objects.FantasticCar;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package Patterns.Strategy.objects;
+package Patterns.StrategyCar.objects;
 
-import Patterns.Strategy.abstracts.Car;
-import Patterns.Strategy.flyBehaviorClass.CarWithWings;
+import Patterns.StrategyCar.abstracts.Car;
+import Patterns.StrategyCar.flyBehaviorClass.CarWithWings;
 
 public class CarJamesBond extends Car{
     public CarJamesBond() {

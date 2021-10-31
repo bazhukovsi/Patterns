@@ -1,8 +1,7 @@
-package Patterns.Strategy.objects;
+package Patterns.StrategyCar.objects;
 
-import Patterns.Strategy.abstracts.Car;
-import Patterns.Strategy.flyBehaviorClass.CarNoFly;
-import Patterns.Strategy.interfaces.FlyBehavior;
+import Patterns.StrategyCar.abstracts.Car;
+import Patterns.StrategyCar.flyBehaviorClass.CarNoFly;
 
 public class CarBMW extends Car{
     public CarBMW() {

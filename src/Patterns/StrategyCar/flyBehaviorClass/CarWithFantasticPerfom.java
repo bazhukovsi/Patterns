@@ -1,6 +1,6 @@
-package Patterns.Strategy.flyBehaviorClass;
+package Patterns.StrategyCar.flyBehaviorClass;
 
-import Patterns.Strategy.interfaces.FlyBehavior;
+import Patterns.StrategyCar.interfaces.FlyBehavior;
 
 public class CarWithFantasticPerfom implements FlyBehavior {
     @Override

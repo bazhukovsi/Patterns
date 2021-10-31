@@ -1,6 +1,6 @@
-package Patterns.Strategy.abstracts;
+package Patterns.StrategyCar.abstracts;
 
-import Patterns.Strategy.interfaces.FlyBehavior;
+import Patterns.StrategyCar.interfaces.FlyBehavior;
 
 public abstract class Car {
     public FlyBehavior flyBehavior;
