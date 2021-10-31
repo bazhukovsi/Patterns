@@ -3,24 +3,22 @@ package Patterns.Strategy.abstracts;
 import Patterns.Strategy.interfaces.FlyBehavior;
 
 public abstract class Car {
-    FlyBehavior flyBehavior;
+    public FlyBehavior flyBehavior;
 
     public void brake() {
-        System.out.println("Машина тормозит");
+        System.out.println("Машина тормозит. Метод родителя.");
     }
 
     public void gaz() {
-        System.out.println("Машина разгоняется");
+        System.out.println("Машина разгоняется. Метод родителя.");
     }
 
     public void perfomFly(){
         flyBehavior.fly();
     }
-    public void perfomFlyWing(){
-        flyBehavior.flyWing();
-    }
-    public void perfomNotFly(){
-        flyBehavior.notFly();
+
+    public void setFlyBehavior(FlyBehavior fb){
+        this.flyBehavior = fb;
     }
 
     public abstract void display();
